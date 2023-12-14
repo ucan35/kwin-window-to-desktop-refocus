@@ -5,7 +5,7 @@ function getTopmostWindow() {
   // Iterate in reverse order, last item means topmost.
   for (let i=clients.length-1; i > -1; --i) {
     let c = clients[i];
-    if (c.desktop == desktopCurrent) {
+    if (c.desktop == desktopCurrent && !c.minimized) {
       return c;
     }
   }
