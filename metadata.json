@@ -1,0 +1,16 @@
+{
+  "KPlugin": {
+    "Name": "window-to-desktop-refocus",
+    "Description": "Enhanced version of window to desktop that refocuses current desktop after move.",
+    "Authors": [
+      {
+        "Email": "unsalcan35@gmail.com"
+      }
+    ],
+    "Id": "window-to-desktop-refocus",
+    "Version": "0.1"
+  },
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js",
+  "KPackageStructure": "KWin/Script"
+}
